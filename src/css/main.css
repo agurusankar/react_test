@@ -1,0 +1,147 @@
+body,
+html {
+    font-family: "lato";
+    color: #6c7279;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+html {
+    background: url(./../images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.done {
+    text-decoration: line-through;
+    background-color: grey !important;
+    color: white;
+}
+.addTask {
+    border: none;
+    background-color: white;
+    border-radius: 4px 4px 4px 4px;
+    outline: none;
+}
+
+.addTask-input {
+    width: 92%;
+    box-sizing: border-box;
+    border: none;
+    font-size: 20px;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    outline: none;
+    height: 60px;
+}
+
+.addTask-button {
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    padding: 0px 0px 0px 20px;
+    outline: none;
+    cursor: pointer;
+}
+.ListContainer {
+    padding: 20px 0px 0px 0px;
+    margin: 0px;
+}
+.ListItem {
+    width: 100%;
+    border-radius: 4px 4px 4px 4px;
+    border: solid 1px;
+    margin-bottom: 1px;
+    font-size: 20px;
+    background-color: lightgrey;
+    height: 50px;
+    outline: none;
+    display: inline-flex;
+    opacity: 0.9;
+}
+
+.Button {
+    background: url("../images/edit.png") no-repeat scroll 0 0 transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 30px;
+    width: 30px;
+}
+
+.edit {
+    background: url("../images/edit.png") no-repeat scroll 0 0 transparent;
+}
+.save {
+    background: url("../images/save.png") no-repeat scroll 0 0 transparent;
+    margin-left: 2px;
+}
+.delete {
+    background: url("../images/delete.png") no-repeat scroll 0 0 transparent;
+}
+
+.cancel {
+    background: url("../images/cancel.png") no-repeat scroll 0 0 transparent;
+}
+.button-container {
+    margin-top: 15px;
+}
+.checkbox {
+    outline: none;
+    margin: 15px 0 15px 15px;
+    height: 17px;
+    width: 17px;
+    background-color: #eee;
+    float: left;
+}
+.hide {
+    display: none;
+}
+.content {
+    color: #000000;
+    width: 85%;
+    font-size: 19px;
+    border: none;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 0px 0px 0px 20px;
+}
+
+.ListItem-input {
+    width: 89%;
+    border-radius: 4px 4px 4px 4px;
+    box-sizing: border-box;
+    font-size: 19px;
+    outline: none;
+    background-color: white;
+    border: solid 0px black;
+    padding: 20px 20px 20px 20px;
+    margin-right: 10px;
+    margin-top: 4px;
+    margin-left: 7px;
+    height: 30px;
+    opacity: 1 !important;
+}
+
+.fade-enter {
+    opacity: 0.01;
+    transform: scale(0.9) translateY(50%);
+}
+.fade-enter-active {
+    opacity: 0.9;
+    transform: scale(1) translateY(0%);
+    transition: all 300ms ease-out;
+}
+.fade-exit {
+    opacity: 0.9;
+    transform: scale(1);
+}
+.fade-exit-active {
+    opacity: 0;
+    transform: scale(0);
+    transition: all 300ms ease-in;
+}
